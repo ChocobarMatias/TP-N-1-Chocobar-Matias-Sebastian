@@ -1,0 +1,45 @@
+#logo /* Con el # llamamos al id de la etiqueta*/
+{
+    width: 80px; /* tamaño del ancho*/
+}
+nav
+{
+    background-color: #4E4E4E ;/*color de fondo del nav*/
+}
+body
+{
+    background-color: #777474;
+}
+h1
+{
+    color: azure;/* color de la letra*/
+}
+.card
+{
+    height: 100%;/*tamaño del largo*/
+    overflow: hidden;/* adapta el contenedor segun su contenido*/
+}
+
+.card:hover/* efecto al pasar el curso*/
+{
+transition: 0.4s;/*transiccion para dicho efecto*/
+scale: 1.08;/*escala de tamaño*/
+
+}
+footer
+{
+    background-color: #aea8a8;
+}
+footer a
+{
+    text-decoration: none;/*quita la decoracon predeterminada*/
+    color: black;
+}
+main
+{
+    padding-top: 110px;/*espacion en diagonal*/
+}
+.img-error
+{
+    width: 30rem;
+}
